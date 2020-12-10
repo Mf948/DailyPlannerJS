@@ -20,13 +20,13 @@
                 $(this).addClass('future')
             }else{
                 //default class == past
-                $(this).addClass('past')
+                $(this).addClass('present')
             }
         }) 
+
+
     }
 
     time();
-
-    //local storage list to button event - save to text area value along with the id into local storage
 
  })

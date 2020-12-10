@@ -23,6 +23,7 @@
                 $(this).addClass('past')
             }
         }) 
+
     }
 
     time();

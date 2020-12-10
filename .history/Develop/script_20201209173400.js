@@ -17,16 +17,15 @@
                 $(this).addClass('present')
             }else if(dayjshour > $(this).attr('id')){
                 //change class to future
-                $(this).addClass('future')
+                $(this).addClass('present')
             }else{
                 //default class == past
-                $(this).addClass('past')
             }
         }) 
+
+
     }
 
     time();
-
-    //local storage list to button event - save to text area value along with the id into local storage
 
  })
