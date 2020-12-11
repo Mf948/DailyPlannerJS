@@ -11,7 +11,7 @@
         }
 
         $('textarea').each(function(){
-        $(this).val(localStorage.getItem($(this).attr('id')))
+        $(this).val(localStorage.getItem)
             if(dayjshour === $(this).attr('id')){
                 //cchange class to current
                 $(this).addClass('present')

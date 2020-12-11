@@ -17,7 +17,7 @@
                 $(this).addClass('present')
             }else if(dayjshour > $(this).attr('id')){
                 //change class to future
-                $(this).addClass('future')
+                $(this).addClass('future')``
             }else{
                 //default class == past
                 $(this).addClass('past')

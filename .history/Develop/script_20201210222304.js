@@ -11,7 +11,7 @@
         }
 
         $('textarea').each(function(){
-        $(this).val(localStorage.getItem($(this).attr('id')))
+
             if(dayjshour === $(this).attr('id')){
                 //cchange class to current
                 $(this).addClass('present')
@@ -29,9 +29,10 @@
 
     //local storage list to button event - save to text area value along with the id into local storage
   $(".saveBtn").click(function(){
-    localStorage.setItem($(this).prev().attr("id"),$(this).prev().val())
-    
- });
+      localStorage.setItem(text)
+      $()
+  
+ })
  
  
     //console.log('local storage',localStorage)
