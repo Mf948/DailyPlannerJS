@@ -3,6 +3,7 @@
     // currentDay
     $("#currentDay").text(dayjs().format('dddd, MMM D'))
    
+
     function time (){
         var dayjshour = dayjs().format("h")
         if (dayjshour < 5 ) {

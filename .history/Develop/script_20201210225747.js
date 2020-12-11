@@ -2,7 +2,8 @@
  $(document).ready(function() {
     // currentDay
     $("#currentDay").text(dayjs().format('dddd, MMM D'))
-   
+    //console.log('current hour',dayjs().format('h'))
+
     function time (){
         var dayjshour = dayjs().format("h")
         if (dayjshour < 5 ) {
@@ -29,6 +30,8 @@
     //local storage list to button event - save to text area value along with the id into local storage
   $(".saveBtn").click(function(){
     localStorage.setItem($(this).prev().attr("id"),$(this).prev().val())
+    
  });
  
+    //console.log('local storage',localStorage)
  })
